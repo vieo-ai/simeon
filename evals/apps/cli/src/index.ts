@@ -73,7 +73,7 @@ const run = async (toolbox: GluegunToolbox) => {
 		run = await createRun({
 			model: rooCodeDefaults.openRouterModelId!,
 			pid: process.pid,
-			socketPath: path.resolve(os.tmpdir(), `roo-code-evals-${crypto.randomUUID().slice(0, 8)}.sock`),
+			socketPath: path.resolve(os.tmpdir(), `simeon-evals-${crypto.randomUUID().slice(0, 8)}.sock`),
 		})
 
 		if (language === "all") {

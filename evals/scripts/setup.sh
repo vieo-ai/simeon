@@ -31,8 +31,8 @@ build_extension() {
   npm run install-extension -- --silent --no-audit || exit 1
   npm run install-webview -- --silent --no-audit || exit 1
   npm run install-e2e -- --silent --no-audit || exit 1
-  npx vsce package --out bin/roo-code-latest.vsix || exit 1
-  code --install-extension bin/roo-code-latest.vsix || exit 1
+  npx vsce package --out bin/simeon-latest.vsix || exit 1
+  code --install-extension bin/simeon-latest.vsix || exit 1
   cd evals
 }
 

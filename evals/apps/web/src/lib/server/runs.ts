@@ -17,7 +17,7 @@ import { getExercisesForLanguage } from "./exercises"
 export async function createRun({ suite, exercises = [], systemPrompt, ...values }: CreateRun) {
 	const run = await db.createRun({
 		...values,
-		socketPath: path.join(os.tmpdir(), `roo-code-evals-${crypto.randomUUID()}.sock`),
+		socketPath: path.join(os.tmpdir(), `simeon-evals-${crypto.randomUUID()}.sock`),
 	})
 
 	if (suite === "partial") {
@@ -43,7 +43,7 @@ export async function createRun({ suite, exercises = [], systemPrompt, ...values
 	revalidatePath("/runs")
 
 	try {
-		const logFile = fs.openSync(`/tmp/roo-code-evals-${run.id}.log`, "a")
+		const logFile = fs.openSync(`/tmp/simeon-evals-${run.id}.log`, "a")
 
 		const env: NodeJS.ProcessEnv = systemPrompt
 			? { ...process.env, FOOTGUN_SYSTEM_PROMPT: systemPrompt }

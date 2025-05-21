@@ -21,9 +21,9 @@ async function main() {
 	fs.writeFileSync("src/exports/types.ts", types.join("\n\n"))
 
 	await $`npx tsup src/exports/interface.ts --dts -d out`
-	fs.copyFileSync("out/interface.d.ts", "src/exports/roo-code.d.ts")
+	fs.copyFileSync("out/interface.d.ts", "src/exports/simeon.d.ts")
 
-	await $`npx prettier --write src/exports/types.ts src/exports/roo-code.d.ts`
+	await $`npx prettier --write src/exports/types.ts src/exports/simeon.d.ts`
 
 	if (fs.existsSync(path.join("..", "Roo-Code-Types"))) {
 		fs.copyFileSync("out/interface.js", path.join("..", "Roo-Code-Types", "src", "index.js"))

@@ -1,7 +1,7 @@
 import * as assert from "assert"
 import * as vscode from "vscode"
 
-import { Package } from "@roo-code/types"
+import { Package } from "@simeon/types"
 
 suite("Simeon Extension", () => {
 	test("Commands should be registered", async () => {

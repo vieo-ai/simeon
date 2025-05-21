@@ -95,7 +95,7 @@ export const importSettings = async ({ providerSettingsManager, contextProxy, cu
 export const exportSettings = async ({ providerSettingsManager, contextProxy }: ExportOptions) => {
 	const uri = await vscode.window.showSaveDialog({
 		filters: { JSON: ["json"] },
-		defaultUri: vscode.Uri.file(path.join(os.homedir(), "Documents", "roo-code-settings.json")),
+		defaultUri: vscode.Uri.file(path.join(os.homedir(), "Documents", "simeon-settings.json")),
 	})
 
 	if (!uri) {

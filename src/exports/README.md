@@ -2,12 +2,12 @@
 
 The Simeon extension exposes an API that can be used by other extensions. To use this API in your extension:
 
-1. Copy `src/extension-api/roo-code.d.ts` to your extension's source directory.
-2. Include `roo-code.d.ts` in your extension's compilation.
+1. Copy `src/extension-api/simeon.d.ts` to your extension's source directory.
+2. Include `simeon.d.ts` in your extension's compilation.
 3. Get access to the API with the following code:
 
 ```typescript
-import { RooCodeAPI, Package } from "path/to/roo-code"
+import { RooCodeAPI, Package } from "path/to/simeon"
 
 const extension = vscode.extensions.getExtension<RooCodeAPI>(`${Package.publisher}.${Package.name}`)
 
@@ -43,4 +43,4 @@ await api.pressSecondaryButton()
 "extensionDependencies": ["RooVeterinaryInc.simeon"]
 ```
 
-For detailed information on the available methods and their usage, refer to the `roo-code.d.ts` file.
+For detailed information on the available methods and their usage, refer to the `simeon.d.ts` file.

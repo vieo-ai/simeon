@@ -1,7 +1,7 @@
 {
 	"title": "MCPサーバー",
 	"done": "完了",
-	"description": "Model Context Protocol (MCP) を有効にすると、Roo Code が外部サーバーから追加のツールやサービスを利用できるようになります。これで Roo ができることが広がるよ。<0>詳細はこちら</0>",
+	"description": "Model Context Protocol (MCP) を有効にすると、Simeon が外部サーバーから追加のツールやサービスを利用できるようになります。これで Roo ができることが広がるよ。<0>詳細はこちら</0>",
 	"enableToggle": {
 		"title": "MCPサーバーを有効化",
 		"description": "これをONにすると、Rooが接続されたMCPサーバーのツールを使えるようになるよ。Rooの機能が増える！追加ツールを使わないなら、APIトークンのコストを抑えるためにOFFにしてね。"

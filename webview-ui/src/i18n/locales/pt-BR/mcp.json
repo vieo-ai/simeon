@@ -1,7 +1,7 @@
 {
 	"title": "Servidores MCP",
 	"done": "Concluído",
-	"description": "Ative o Model Context Protocol (MCP) para permitir que o Roo Code use ferramentas e serviços extras de servidores externos. Isso amplia o que o Roo pode fazer por você. <0>Saiba mais</0>",
+	"description": "Ative o Model Context Protocol (MCP) para permitir que o Simeon use ferramentas e serviços extras de servidores externos. Isso amplia o que o Roo pode fazer por você. <0>Saiba mais</0>",
 	"enableToggle": {
 		"title": "Ativar servidores MCP",
 		"description": "Ative para que o Roo possa usar ferramentas de servidores MCP conectados. Isso dá mais capacidades ao Roo. Se você não pretende usar essas ferramentas extras, desative para ajudar a reduzir os custos de tokens da API."

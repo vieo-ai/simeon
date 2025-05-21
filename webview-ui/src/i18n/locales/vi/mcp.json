@@ -1,7 +1,7 @@
 {
 	"title": "Máy chủ MCP",
 	"done": "Xong",
-	"description": "Bật Model Context Protocol (MCP) để Roo Code có thể dùng thêm công cụ và dịch vụ từ máy chủ bên ngoài. Điều này mở rộng khả năng của Roo cho bạn. <0>Tìm hiểu thêm</0>",
+	"description": "Bật Model Context Protocol (MCP) để Simeon có thể dùng thêm công cụ và dịch vụ từ máy chủ bên ngoài. Điều này mở rộng khả năng của Roo cho bạn. <0>Tìm hiểu thêm</0>",
 	"enableToggle": {
 		"title": "Bật máy chủ MCP",
 		"description": "Bật lên để Roo dùng công cụ từ các máy chủ MCP đã kết nối. Roo sẽ có nhiều khả năng hơn. Nếu không dùng các công cụ này, hãy tắt để tiết kiệm chi phí token API."

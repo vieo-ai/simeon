@@ -23,7 +23,7 @@
 <br>
 
 <div align="center">
-<h1>Roo Code（旧Roo Cline）</h1>
+<h1>Simeon（旧Roo Cline）</h1>
 
 <a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline" target="_blank"><img src="https://img.shields.io/badge/VS%20Marketplace%E3%81%A7%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Marketplaceでダウンロード"></a>
 <a href="https://github.com/RooCodeInc/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/%E6%A9%9F%E8%83%BD%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-yellow?style=for-the-badge" alt="機能リクエスト"></a>
@@ -32,7 +32,7 @@
 
 </div>
 
-**Roo Code**はエディター内に存在するAIパワードの**自律型コーディングエージェント**です。以下のことができます：
+**Simeon**はエディター内に存在するAIパワードの**自律型コーディングエージェント**です。以下のことができます：
 
 - 自然言語でコミュニケーション
 - ワークスペース内のファイルを直接読み書き
@@ -47,9 +47,9 @@
 
 ---
 
-## 🎉 Roo Code 3.17リリース
+## 🎉 Simeon 3.17リリース
 
-Roo Code 3.17はユーザーのフィードバックに基づく強力な新機能と改善を提供します！
+Simeon 3.17はユーザーのフィードバックに基づく強力な新機能と改善を提供します！
 
 - **Geminiの暗黙的キャッシング** - Gemini APIコールが自動的にキャッシュされるようになり、APIコストが削減されます
 - **よりスマートなモード選択** - モード定義に各モードがいつ使用されるべきかの指針を含めることができるようになり、より良いオーケストレーションが可能になりました
@@ -163,7 +163,7 @@ code --install-extension bin/roo-cline-<version>.vsix
 
 ## 免責事項
 
-**ご注意ください**：Roo Code, Incは、Roo Codeに関連して提供または利用可能になるコード、モデル、またはその他のツール、関連するサードパーティツール、または結果的な出力に関して、**いかなる表明や保証も行いません**。そのようなツールや出力の使用に関連するすべてのリスクはお客様が負うものとします。そのようなツールは**「現状のまま」**および**「利用可能な状態」**で提供されます。そのようなリスクには、知的財産権の侵害、サイバー脆弱性や攻撃、バイアス、不正確さ、エラー、欠陥、ウイルス、ダウンタイム、財産の損失または損害、および/または人身傷害が含まれますが、これらに限定されません。お客様は、そのようなツールまたは出力の使用について（適法性、適切性、および結果を含むがこれらに限定されない）単独で責任を負います。
+**ご注意ください**：Simeon, Incは、Roo Codeに関連して提供または利用可能になるコード、モデル、またはその他のツール、関連するサードパーティツール、または結果的な出力に関して、**いかなる表明や保証も行いません**。そのようなツールや出力の使用に関連するすべてのリスクはお客様が負うものとします。そのようなツールは**「現状のまま」**および**「利用可能な状態」**で提供されます。そのようなリスクには、知的財産権の侵害、サイバー脆弱性や攻撃、バイアス、不正確さ、エラー、欠陥、ウイルス、ダウンタイム、財産の損失または損害、および/または人身傷害が含まれますが、これらに限定されません。お客様は、そのようなツールまたは出力の使用について（適法性、適切性、および結果を含むがこれらに限定されない）単独で責任を負います。
 
 ---
 
@@ -211,7 +211,7 @@ Roo Codeの改善に貢献してくれたすべての貢献者に感謝します
 
 ## ライセンス
 
-[Apache 2.0 © 2025 Roo Code, Inc.](../LICENSE)
+[Apache 2.0 © 2025 Simeon, Inc.](../LICENSE)
 
 ---
 

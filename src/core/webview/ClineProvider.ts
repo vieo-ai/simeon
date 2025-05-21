@@ -627,7 +627,7 @@ export class ClineProvider extends EventEmitter<ClineProviderEvents> implements 
 						window.AUDIO_BASE_URI = "${audioUri}"
 						window.MATERIAL_ICONS_BASE_URI = "${materialIconsUri}"
 					</script>
-					<title>Roo Code</title>
+					<title>Simeon</title>
 				</head>
 				<body>
 					<div id="root"></div>
@@ -723,7 +723,7 @@ export class ClineProvider extends EventEmitter<ClineProviderEvents> implements 
 				window.AUDIO_BASE_URI = "${audioUri}"
 				window.MATERIAL_ICONS_BASE_URI = "${materialIconsUri}"
 			</script>
-            <title>Roo Code</title>
+            <title>Simeon</title>
           </head>
           <body>
             <noscript>You need to enable JavaScript to run this app.</noscript>

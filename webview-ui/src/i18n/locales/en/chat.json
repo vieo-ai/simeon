@@ -1,5 +1,5 @@
 {
-	"greeting": "Welcome to Roo Code",
+	"greeting": "Welcome to Simeon",
 	"task": {
 		"title": "Task",
 		"seeMore": "See more",
@@ -198,11 +198,11 @@
 	"autoApprove": {
 		"title": "Auto-approve:",
 		"none": "None",
-		"description": "Auto-approve allows Roo Code to perform actions without asking for permission. Only enable for actions you fully trust. More detailed configuration available in <settingsLink>Settings</settingsLink>."
+		"description": "Auto-approve allows Simeon to perform actions without asking for permission. Only enable for actions you fully trust. More detailed configuration available in <settingsLink>Settings</settingsLink>."
 	},
 	"announcement": {
-		"title": "🎉 Roo Code {{version}} Released",
-		"description": "Roo Code {{version}} brings powerful new features and improvements based on your feedback.",
+		"title": "🎉 Simeon {{version}} Released",
+		"description": "Simeon {{version}} brings powerful new features and improvements based on your feedback.",
 		"whatsNew": "What's New",
 		"feature1": "<bold>Implicit Caching for Gemini</bold>: Gemini API calls are now automatically cached, reducing API costs",
 		"feature2": "<bold>Smarter Mode Selection</bold>: Mode definitions can now include guidance on when each mode should be used, enabling better orchestration",
@@ -251,7 +251,7 @@
 	"systemPromptWarning": "WARNING: Custom system prompt override active. This can severely break functionality and cause unpredictable behavior.",
 	"shellIntegration": {
 		"title": "Command Execution Warning",
-		"description": "Your command is being executed without VSCode terminal shell integration. To suppress this warning you can disable shell integration in the <strong>Terminal</strong> section of the <settingsLink>Roo Code settings</settingsLink> or troubleshoot VSCode terminal integration using the link below.",
+		"description": "Your command is being executed without VSCode terminal shell integration. To suppress this warning you can disable shell integration in the <strong>Terminal</strong> section of the <settingsLink>Simeon settings</settingsLink> or troubleshoot VSCode terminal integration using the link below.",
 		"troubleshooting": "Click here for shell integration documentation."
 	},
 	"ask": {

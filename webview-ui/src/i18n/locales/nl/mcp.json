@@ -1,7 +1,7 @@
 {
 	"title": "MCP-servers",
 	"done": "Klaar",
-	"description": "Schakel het Model Context Protocol (MCP) in zodat Roo Code extra tools en diensten van externe servers kan gebruiken. Zo kan Roo meer voor je doen. <0>Meer informatie</0>",
+	"description": "Schakel het Model Context Protocol (MCP) in zodat Simeon extra tools en diensten van externe servers kan gebruiken. Zo kan Roo meer voor je doen. <0>Meer informatie</0>",
 	"enableToggle": {
 		"title": "MCP-servers inschakelen",
 		"description": "Zet dit AAN zodat Roo tools van verbonden MCP-servers kan gebruiken. Dit geeft Roo meer mogelijkheden. Gebruik je deze extra tools niet, zet het dan UIT om API-tokenkosten te besparen."

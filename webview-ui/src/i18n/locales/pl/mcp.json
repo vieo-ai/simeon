@@ -1,7 +1,7 @@
 {
 	"title": "Serwery MCP",
 	"done": "Gotowe",
-	"description": "Włącz Model Context Protocol (MCP), aby Roo Code mógł korzystać z dodatkowych narzędzi i usług z zewnętrznych serwerów. To rozszerza możliwości Roo. <0>Dowiedz się więcej</0>",
+	"description": "Włącz Model Context Protocol (MCP), aby Simeon mógł korzystać z dodatkowych narzędzi i usług z zewnętrznych serwerów. To rozszerza możliwości Roo. <0>Dowiedz się więcej</0>",
 	"enableToggle": {
 		"title": "Włącz serwery MCP",
 		"description": "Włącz to, aby Roo mógł korzystać z narzędzi połączonych serwerów MCP. Daje to Roo więcej możliwości. Jeśli nie planujesz korzystać z tych dodatkowych narzędzi, wyłącz to, aby zmniejszyć koszty tokenów API."

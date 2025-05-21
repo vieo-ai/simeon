@@ -1,10 +1,10 @@
-# Run Roo Code Evals
+# Run Simeon Evals
 
 ## Get Started
 
 NOTE: This is MacOS only for now!
 
-Clone the Roo Code repo:
+Clone the Simeon repo:
 
 ```sh
 git clone https://github.com/RooCodeInc/Roo-Code.git

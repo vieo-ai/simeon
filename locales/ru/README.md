@@ -12,7 +12,7 @@
 </div>
 <br>
 <div align="center">
-  <h1>Simeon (ранее Roo Cline)</h1>
+  <h1>Simeon (ранее Simeon)</h1>
   <p align="center">
   <img src="https://media.githubusercontent.com/media/RooCodeInc/Roo-Code/main/assets/docs/demo.gif" width="100%" />
   </p>

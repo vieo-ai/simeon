@@ -3,7 +3,7 @@ import { useAppTranslation } from "@/i18n/TranslationContext"
 
 import { Slider } from "@/components/ui"
 
-import { ProviderSettings, ModelInfo } from "@roo/shared/api"
+import { ProviderSettings, ModelInfo } from "@simeon/shared/api"
 
 const DEFAULT_MAX_OUTPUT_TOKENS = 16_384
 const DEFAULT_MAX_THINKING_TOKENS = 8_192

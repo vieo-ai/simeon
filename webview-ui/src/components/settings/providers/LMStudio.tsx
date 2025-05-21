@@ -4,10 +4,10 @@ import { Trans } from "react-i18next"
 import { Checkbox } from "vscrui"
 import { VSCodeLink, VSCodeRadio, VSCodeRadioGroup, VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 
-import { ProviderSettings } from "@roo/shared/api"
+import { ProviderSettings } from "@simeon/shared/api"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
-import { ExtensionMessage } from "@roo/shared/ExtensionMessage"
+import { ExtensionMessage } from "@simeon/shared/ExtensionMessage"
 
 import { inputEventTransform } from "../transforms"
 

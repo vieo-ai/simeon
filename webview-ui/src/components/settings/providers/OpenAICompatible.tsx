@@ -4,9 +4,9 @@ import { Checkbox } from "vscrui"
 import { VSCodeButton, VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 import { convertHeadersToObject } from "../utils/headers"
 
-import { ModelInfo, ReasoningEffort as ReasoningEffortType } from "@roo/schemas"
-import { ProviderSettings, azureOpenAiDefaultApiVersion, openAiModelInfoSaneDefaults } from "@roo/shared/api"
-import { ExtensionMessage } from "@roo/shared/ExtensionMessage"
+import { ModelInfo, ReasoningEffort as ReasoningEffortType } from "@simeon/schemas"
+import { ProviderSettings, azureOpenAiDefaultApiVersion, openAiModelInfoSaneDefaults } from "@simeon/shared/api"
+import { ExtensionMessage } from "@simeon/shared/ExtensionMessage"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { Button } from "@src/components/ui"

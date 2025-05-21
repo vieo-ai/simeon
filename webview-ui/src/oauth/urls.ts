@@ -1,4 +1,4 @@
-import { Package } from "@roo/schemas"
+import { Package } from "@simeon/schemas"
 
 export function getCallbackUrl(provider: string, uriScheme?: string) {
 	return encodeURIComponent(`${uriScheme || "vscode"}://${Package.publisher}.${Package.name}/${provider}`)

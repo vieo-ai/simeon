@@ -1,7 +1,7 @@
-import { RouterModels } from "@roo/shared/api"
+import { RouterModels } from "@simeon/shared/api"
 
 import { vscode } from "@src/utils/vscode"
-import { ExtensionMessage } from "@roo/shared/ExtensionMessage"
+import { ExtensionMessage } from "@simeon/shared/ExtensionMessage"
 import { useQuery } from "@tanstack/react-query"
 
 const getRouterModels = async () =>

@@ -18,11 +18,11 @@ import {
 	getAllModes,
 	ModeConfig,
 	GroupEntry,
-} from "@roo/shared/modes"
-import { modeConfigSchema } from "@roo/schemas"
-import { supportPrompt, SupportPromptType } from "@roo/shared/support-prompt"
+} from "@simeon/shared/modes"
+import { modeConfigSchema } from "@simeon/schemas"
+import { supportPrompt, SupportPromptType } from "@simeon/shared/support-prompt"
 
-import { TOOL_GROUPS, ToolGroup } from "@roo/shared/tools"
+import { TOOL_GROUPS, ToolGroup } from "@simeon/shared/tools"
 import { vscode } from "@src/utils/vscode"
 import { Tab, TabContent, TabHeader } from "../common/Tab"
 import { useAppTranslation } from "@src/i18n/TranslationContext"

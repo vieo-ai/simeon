@@ -1,6 +1,6 @@
 import React, { memo, useState } from "react"
 import { VSCodeButton } from "@vscode/webview-ui-toolkit/react"
-import { ClineMessage } from "@roo/shared/ExtensionMessage"
+import { ClineMessage } from "@simeon/shared/ExtensionMessage"
 import { vscode } from "@src/utils/vscode"
 import { Trans } from "react-i18next"
 

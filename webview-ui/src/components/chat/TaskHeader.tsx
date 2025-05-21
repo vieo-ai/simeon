@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 import { VSCodeBadge } from "@vscode/webview-ui-toolkit/react"
 import { CloudUpload, CloudDownload } from "lucide-react"
 
-import { ClineMessage } from "@roo/shared/ExtensionMessage"
+import { ClineMessage } from "@simeon/shared/ExtensionMessage"
 
 import { getMaxTokensForModel } from "@src/utils/model-utils"
 import { formatLargeNumber } from "@src/utils/format"

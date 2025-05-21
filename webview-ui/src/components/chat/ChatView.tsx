@@ -13,14 +13,14 @@ import {
 	ClineSayBrowserAction,
 	ClineSayTool,
 	ExtensionMessage,
-} from "@roo/shared/ExtensionMessage"
-import { McpServer, McpTool } from "@roo/shared/mcp"
-import { findLast } from "@roo/shared/array"
-import { combineApiRequests } from "@roo/shared/combineApiRequests"
-import { combineCommandSequences } from "@roo/shared/combineCommandSequences"
-import { getApiMetrics } from "@roo/shared/getApiMetrics"
-import { AudioType } from "@roo/shared/WebviewMessage"
-import { getAllModes } from "@roo/shared/modes"
+} from "@simeon/shared/ExtensionMessage"
+import { McpServer, McpTool } from "@simeon/shared/mcp"
+import { findLast } from "@simeon/shared/array"
+import { combineApiRequests } from "@simeon/shared/combineApiRequests"
+import { combineCommandSequences } from "@simeon/shared/combineCommandSequences"
+import { getApiMetrics } from "@simeon/shared/getApiMetrics"
+import { AudioType } from "@simeon/shared/WebviewMessage"
+import { getAllModes } from "@simeon/shared/modes"
 
 import { useExtensionState } from "@src/context/ExtensionStateContext"
 import { vscode } from "@src/utils/vscode"

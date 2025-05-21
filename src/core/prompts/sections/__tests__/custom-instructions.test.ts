@@ -83,7 +83,7 @@ describe("loadRuleFiles", () => {
 		statMock.mockRejectedValueOnce({ code: "ENOENT" })
 		readFileMock.mockImplementation((filePath: PathLike) => {
 			if (filePath.toString().endsWith(".roorules")) {
-				return Promise.resolve("roo rules content")
+				return Promise.resolve("simeon rules content")
 			}
 			if (filePath.toString().endsWith(".clinerules")) {
 				return Promise.resolve("cline rules content")
@@ -176,7 +176,7 @@ describe("loadRuleFiles", () => {
 		// Simulate .roorules exists
 		readFileMock.mockImplementation((filePath: PathLike) => {
 			if (filePath.toString().endsWith(".roorules")) {
-				return Promise.resolve("roo rules content")
+				return Promise.resolve("simeon rules content")
 			}
 			return Promise.reject({ code: "ENOENT" })
 		})
@@ -197,7 +197,7 @@ describe("loadRuleFiles", () => {
 		// Simulate .roorules exists
 		readFileMock.mockImplementation((filePath: PathLike) => {
 			if (filePath.toString().endsWith(".roorules")) {
-				return Promise.resolve("roo rules content")
+				return Promise.resolve("simeon rules content")
 			}
 			return Promise.reject({ code: "ENOENT" })
 		})

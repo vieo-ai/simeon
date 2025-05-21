@@ -2,10 +2,10 @@
 
 import { render, screen, act } from "@testing-library/react"
 
-import { ExtensionState } from "@roo/shared/ExtensionMessage"
+import { ExtensionState } from "@simeon/shared/ExtensionMessage"
 import { ExtensionStateContextProvider, useExtensionState, mergeExtensionState } from "../ExtensionStateContext"
-import { ExperimentId } from "@roo/shared/experiments"
-import { ProviderSettings } from "@roo/shared/api"
+import { ExperimentId } from "@simeon/shared/experiments"
+import { ProviderSettings } from "@simeon/shared/api"
 
 const TestComponent = () => {
 	const { allowedCommands, setAllowedCommands, soundEnabled, showRooIgnoredFiles, setShowRooIgnoredFiles } =

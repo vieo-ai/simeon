@@ -3,7 +3,7 @@
 import { render, screen, fireEvent } from "@testing-library/react"
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 
-import { ProviderSettings, openAiModelInfoSaneDefaults } from "@roo/shared/api"
+import { ProviderSettings, openAiModelInfoSaneDefaults } from "@simeon/shared/api"
 
 import { ExtensionStateContextProvider } from "@/context/ExtensionStateContext"
 

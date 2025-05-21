@@ -2,8 +2,8 @@ import { useAppTranslation } from "@/i18n/TranslationContext"
 
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui"
 
-import { ProviderSettings } from "@roo/shared/api"
-import { reasoningEfforts, ReasoningEffort as ReasoningEffortType } from "@roo/schemas"
+import { ProviderSettings } from "@simeon/shared/api"
+import { reasoningEfforts, ReasoningEffort as ReasoningEffortType } from "@simeon/schemas"
 
 interface ReasoningEffortProps {
 	apiConfiguration: ProviderSettings

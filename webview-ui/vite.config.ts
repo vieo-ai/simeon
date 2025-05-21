@@ -52,7 +52,7 @@ export default defineConfig({
 		alias: {
 			"@": resolve(__dirname, "./src"),
 			"@src": resolve(__dirname, "./src"),
-			"@roo": resolve(__dirname, "../src"),
+			"@simeon": resolve(__dirname, "../src"),
 		},
 	},
 	build: {

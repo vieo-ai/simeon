@@ -3,7 +3,7 @@ import prettyBytes from "pretty-bytes"
 import { useTranslation } from "react-i18next"
 
 import { vscode } from "@/utils/vscode"
-import { HistoryItem } from "@roo/shared/HistoryItem"
+import { HistoryItem } from "@simeon/shared/HistoryItem"
 
 import { DeleteTaskDialog } from "../history/DeleteTaskDialog"
 import { IconButton } from "./IconButton"

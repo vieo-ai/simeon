@@ -1,4 +1,4 @@
-import type { GlobalSettings } from "@roo/schemas"
+import type { GlobalSettings } from "@simeon/schemas"
 
 import { useAppTranslation } from "@/i18n/TranslationContext"
 import { cn } from "@/lib/utils"

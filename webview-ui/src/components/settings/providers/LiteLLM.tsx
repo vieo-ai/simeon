@@ -1,7 +1,7 @@
 import { useCallback } from "react"
 import { VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
 
-import { ProviderSettings, RouterModels, litellmDefaultModelId } from "@roo/shared/api"
+import { ProviderSettings, RouterModels, litellmDefaultModelId } from "@simeon/shared/api"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 

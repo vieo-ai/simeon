@@ -1,6 +1,6 @@
 import i18next from "i18next"
 
-import { ProviderSettings, isRouterName, RouterModels } from "@roo/shared/api"
+import { ProviderSettings, isRouterName, RouterModels } from "@simeon/shared/api"
 
 export function validateApiConfiguration(apiConfiguration: ProviderSettings): string | undefined {
 	switch (apiConfiguration.apiProvider) {

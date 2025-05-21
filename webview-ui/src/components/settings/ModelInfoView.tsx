@@ -4,7 +4,7 @@ import { useAppTranslation } from "@/i18n/TranslationContext"
 import { formatPrice } from "@/utils/formatPrice"
 import { cn } from "@/lib/utils"
 
-import { ModelInfo } from "@roo/shared/api"
+import { ModelInfo } from "@simeon/shared/api"
 
 import { ModelDescriptionMarkdown } from "./ModelDescriptionMarkdown"
 

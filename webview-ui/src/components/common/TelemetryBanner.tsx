@@ -2,7 +2,7 @@ import { VSCodeButton, VSCodeLink } from "@vscode/webview-ui-toolkit/react"
 import { memo, useState } from "react"
 import styled from "styled-components"
 import { vscode } from "@src/utils/vscode"
-import { TelemetrySetting } from "@roo/shared/TelemetrySetting"
+import { TelemetrySetting } from "@simeon/shared/TelemetrySetting"
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { Trans } from "react-i18next"
 

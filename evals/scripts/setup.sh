@@ -337,7 +337,7 @@ if ! grep -q "OPENROUTER_API_KEY" .env; then
   echo "OPENROUTER_API_KEY=$openrouter_api_key" >> .env || exit 1
 fi
 
-current_version=$(code --list-extensions --show-versions 2>/dev/null | grep roo)
+current_version=$(code --list-extensions --show-versions 2>/dev/null | grep simeon)
 read -p "💻 Do you want to build a new version of the Simeon extension? [currently $current_version] (y/N): " build_extension
 
 if [[ "$build_extension" =~ ^[Yy]$ ]]; then

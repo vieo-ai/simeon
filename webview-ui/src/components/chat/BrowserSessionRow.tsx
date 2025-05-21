@@ -4,7 +4,7 @@ import deepEqual from "fast-deep-equal"
 import { useTranslation } from "react-i18next"
 import { VSCodeButton } from "@vscode/webview-ui-toolkit/react"
 
-import { BrowserAction, BrowserActionResult, ClineMessage, ClineSayBrowserAction } from "@roo/shared/ExtensionMessage"
+import { BrowserAction, BrowserActionResult, ClineMessage, ClineSayBrowserAction } from "@simeon/shared/ExtensionMessage"
 
 import { useExtensionState } from "@src/context/ExtensionStateContext"
 import { vscode } from "@src/utils/vscode"

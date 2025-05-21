@@ -2,7 +2,7 @@ import { useCallback } from "react"
 import { Checkbox } from "vscrui"
 import { VSCodeTextField, VSCodeRadio, VSCodeRadioGroup } from "@vscode/webview-ui-toolkit/react"
 
-import { ProviderSettings, ModelInfo } from "@roo/shared/api"
+import { ProviderSettings, ModelInfo } from "@simeon/shared/api"
 
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@src/components/ui"

@@ -11,7 +11,7 @@ import {
 	glamaDefaultModelId,
 	unboundDefaultModelId,
 	litellmDefaultModelId,
-} from "@roo/shared/api"
+} from "@simeon/shared/api"
 
 import { vscode } from "@src/utils/vscode"
 import { validateApiConfiguration, validateModelId } from "@src/utils/validate"

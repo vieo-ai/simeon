@@ -25,9 +25,9 @@ import {
 	LucideIcon,
 } from "lucide-react"
 
-import { ExperimentId } from "@roo/shared/experiments"
-import { TelemetrySetting } from "@roo/shared/TelemetrySetting"
-import { ProviderSettings } from "@roo/shared/api"
+import { ExperimentId } from "@simeon/shared/experiments"
+import { TelemetrySetting } from "@simeon/shared/TelemetrySetting"
+import { ProviderSettings } from "@simeon/shared/api"
 
 import { vscode } from "@/utils/vscode"
 import { ExtensionStateContextType, useExtensionState } from "@/context/ExtensionStateContext"

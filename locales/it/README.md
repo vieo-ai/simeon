@@ -25,9 +25,9 @@
 <div align="center">
 <h1>Simeon (precedentemente Simeon)</h1>
 
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline" target="_blank"><img src="https://img.shields.io/badge/Scarica%20su%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Scarica su VS Marketplace"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon" target="_blank"><img src="https://img.shields.io/badge/Scarica%20su%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Scarica su VS Marketplace"></a>
 <a href="https://github.com/RooCodeInc/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/Richieste%20di%20Funzionalità-yellow?style=for-the-badge" alt="Richieste di Funzionalità"></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Valuta%20%26%20Recensisci-green?style=for-the-badge" alt="Valuta & Recensisci"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Valuta%20%26%20Recensisci-green?style=for-the-badge" alt="Valuta & Recensisci"></a>
 <a href="https://docs.roocode.com" target="_blank"><img src="https://img.shields.io/badge/Documentazione-6B46C1?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentazione"></a>
 
 </div>
@@ -154,7 +154,7 @@ npm run build
 Un file `.vsix` apparirà nella directory `bin/` che può essere installato con:
 
 ```sh
-code --install-extension bin/roo-cline-<version>.vsix
+code --install-extension bin/simeon-<version>.vsix
 ```
 
 Utilizziamo [changesets](https://github.com/changesets/changesets) per la gestione delle versioni e la pubblicazione. Controlla il nostro `CHANGELOG.md` per le note di rilascio.

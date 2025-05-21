@@ -1,5 +1,5 @@
 ---
-"roo-cline": minor
+"simeon": minor
 ---
 
 Adds refresh models button for Unbound provider

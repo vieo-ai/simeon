@@ -26,9 +26,9 @@
 <div align="center">
 <h1>Simeon（前身為 Simeon）</h1>
 
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline" target="_blank"><img src="https://img.shields.io/badge/從%20VS%20Marketplace%20下載-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="從 VS Marketplace 下載"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon" target="_blank"><img src="https://img.shields.io/badge/從%20VS%20Marketplace%20下載-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="從 VS Marketplace 下載"></a>
 <a href="https://github.com/RooCodeInc/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/功能請求-yellow?style=for-the-badge" alt="功能請求"></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/評分%20%26%20評論-green?style=for-the-badge" alt="評分 & 評論"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/評分%20%26%20評論-green?style=for-the-badge" alt="評分 & 評論"></a>
 <a href="https://docs.roocode.com" target="_blank"><img src="https://img.shields.io/badge/文件-6B46C1?style=for-the-badge&logo=readthedocs&logoColor=white" alt="文件"></a>
 
 </div>
@@ -155,7 +155,7 @@ npm run build
 建置完成後，`.vsix` 檔案會出現在 `bin/` 目錄中，可使用以下指令安裝：
 
 ```sh
-code --install-extension bin/roo-cline-<version>.vsix
+code --install-extension bin/simeon-<version>.vsix
 ```
 
 我們使用 [changesets](https://github.com/changesets/changesets) 進行版本控制和發布。檢視我們的 `CHANGELOG.md` 取得發布說明。

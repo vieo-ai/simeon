@@ -1,5 +1,5 @@
 ---
-"roo-cline": patch
+"simeon": patch
 ---
 
 Use YAML as default custom modes format

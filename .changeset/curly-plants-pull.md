@@ -1,5 +1,5 @@
 ---
-"roo-cline": patch
+"simeon": patch
 ---
 
 New models for the Chutes provider:

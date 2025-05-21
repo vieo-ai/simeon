@@ -25,9 +25,9 @@
 <div align="center">
 <h1>Simeon (önceki adıyla Simeon)</h1>
 
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline" target="_blank"><img src="https://img.shields.io/badge/VS%20Marketplace%27den%20İndir-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Marketplace'den İndir"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon" target="_blank"><img src="https://img.shields.io/badge/VS%20Marketplace%27den%20İndir-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Marketplace'den İndir"></a>
 <a href="https://github.com/RooCodeInc/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/Özellik%20İstekleri-yellow?style=for-the-badge" alt="Özellik İstekleri"></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Değerlendir%20%26%20İnceleme-green?style=for-the-badge" alt="Değerlendir & İnceleme"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Değerlendir%20%26%20İnceleme-green?style=for-the-badge" alt="Değerlendir & İnceleme"></a>
 <a href="https://docs.roocode.com" target="_blank"><img src="https://img.shields.io/badge/Dokümantasyon-6B46C1?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Dokümantasyon"></a>
 
 </div>
@@ -154,7 +154,7 @@ npm run build
 `bin/` dizininde bir `.vsix` dosyası görünecek ve şu komutla kurulabilir:
 
 ```sh
-code --install-extension bin/roo-cline-<version>.vsix
+code --install-extension bin/simeon-<version>.vsix
 ```
 
 Sürüm oluşturma ve yayınlama için [changesets](https://github.com/changesets/changesets) kullanıyoruz. Sürüm notları için `CHANGELOG.md` dosyamızı kontrol edin.

@@ -25,9 +25,9 @@
 <div align="center">
 <h1>Simeon (früher Simeon)</h1>
 
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline" target="_blank"><img src="https://img.shields.io/badge/Download%20im%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download im VS Marketplace"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon" target="_blank"><img src="https://img.shields.io/badge/Download%20im%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download im VS Marketplace"></a>
 <a href="https://github.com/RooCodeInc/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/Funktionsanfragen-yellow?style=for-the-badge" alt="Funktionsanfragen"></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Bewerten%20%26%20Rezensieren-green?style=for-the-badge" alt="Bewerten & Rezensieren"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Bewerten%20%26%20Rezensieren-green?style=for-the-badge" alt="Bewerten & Rezensieren"></a>
 <a href="https://docs.roocode.com" target="_blank"><img src="https://img.shields.io/badge/Dokumentation-6B46C1?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Dokumentation"></a>
 
 </div>
@@ -154,7 +154,7 @@ npm run build
 Eine `.vsix`-Datei erscheint im `bin/`-Verzeichnis, die mit folgendem Befehl installiert werden kann:
 
 ```sh
-code --install-extension bin/roo-cline-<version>.vsix
+code --install-extension bin/simeon-<version>.vsix
 ```
 
 Wir verwenden [changesets](https://github.com/changesets/changesets) für Versionierung und Veröffentlichung. Überprüfen Sie unsere `CHANGELOG.md` für Release-Hinweise.

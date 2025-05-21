@@ -26,9 +26,9 @@
 
 <div align="center">
 
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline" target="_blank"><img src="https://img.shields.io/badge/Download%20op%20VS%20Marketplace-blauw?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download op VS Marketplace"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon" target="_blank"><img src="https://img.shields.io/badge/Download%20op%20VS%20Marketplace-blauw?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download op VS Marketplace"></a>
 <a href="https://github.com/RooCodeInc/Roo-Code/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/Feature%20Requests-geel?style=for-the-badge" alt="Feature Requests"></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Beoordeel%20%26%20Review-groen?style=for-the-badge" alt="Beoordeel & Review"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.simeon&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Beoordeel%20%26%20Review-groen?style=for-the-badge" alt="Beoordeel & Review"></a>
 <a href="https://docs.roocode.com" target="_blank"><img src="https://img.shields.io/badge/Documentatie-6B46C1?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentatie"></a>
 
 </div>
@@ -155,7 +155,7 @@ npm run build
 Een `.vsix`-bestand verschijnt in de `bin/`-map en kan worden geïnstalleerd met:
 
 ```sh
-code --install-extension bin/roo-cline-<versie>.vsix
+code --install-extension bin/simeon-<versie>.vsix
 ```
 
 We gebruiken [changesets](https://github.com/changesets/changesets) voor versiebeheer en publicatie. Bekijk onze `CHANGELOG.md` voor release-opmerkingen.

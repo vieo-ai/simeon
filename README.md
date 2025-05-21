@@ -12,7 +12,7 @@ English • [Català](locales/ca/README.md) • [Deutsch](locales/de/README.md) 
 </div>
 <br>
 <div align="center">
-  <h1>Roo Code (prev. Roo Cline)</h1>
+  <h1>Simeon</h1>
   <p align="center">
   <img src="https://media.githubusercontent.com/media/RooCodeInc/Roo-Code/main/assets/docs/demo.gif" width="100%" />
   </p>

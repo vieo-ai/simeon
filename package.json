@@ -10,8 +10,8 @@
 		"theme": "dark"
 	},
 	"engines": {
-		"vscode": "^1.84.0",
-		"node": "20.18.1"
+		"vscode": "^1.100.2",
+		"node": "22.11.0"
 	},
 	"author": {
 		"name": "Roo Code"

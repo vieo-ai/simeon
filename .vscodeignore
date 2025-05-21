@@ -28,7 +28,7 @@ jest.*
 .clinerules*
 .roomodes
 .rooignore
-.roo/**
+.sime/**
 benchmark/**
 docs/**
 e2e/**

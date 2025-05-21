@@ -979,7 +979,7 @@ const PromptsView = ({ onDone }: PromptsViewProps) => {
 												// Open or create an empty file
 												vscode.postMessage({
 													type: "openFile",
-													text: `./.roo/rules-${currentMode.slug}/rules.md`,
+													text: `./.sime/rules-${currentMode.slug}/rules.md`,
 													values: {
 														create: true,
 														content: "",
@@ -1056,7 +1056,7 @@ const PromptsView = ({ onDone }: PromptsViewProps) => {
 
 													vscode.postMessage({
 														type: "openFile",
-														text: `./.roo/system-prompt-${currentMode.slug}`,
+														text: `./.sime/system-prompt-${currentMode.slug}`,
 														values: {
 															create: true,
 															content: "",
@@ -1121,7 +1121,7 @@ const PromptsView = ({ onDone }: PromptsViewProps) => {
 										onClick={() =>
 											vscode.postMessage({
 												type: "openFile",
-												text: "./.roo/rules/rules.md",
+												text: "./.sime/rules/rules.md",
 												values: {
 													create: true,
 													content: "",

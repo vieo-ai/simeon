@@ -43,12 +43,12 @@
 		"title": "モード固有のカスタム指示（オプション）",
 		"resetToDefault": "デフォルトにリセット",
 		"description": "{{modeName}}モードに特化した行動ガイドラインを追加します。",
-		"loadFromFile": "{{mode}}モード固有のカスタム指示は、ワークスペースの<span>.roo/rules-{{slug}}/</span>フォルダからも読み込めます（.roorules-{{slug}}と.clinerules-{{slug}}は非推奨であり、まもなく機能しなくなります）。"
+		"loadFromFile": "{{mode}}モード固有のカスタム指示は、ワークスペースの<span>.sime/rules-{{slug}}/</span>フォルダからも読み込めます（.roorules-{{slug}}と.clinerules-{{slug}}は非推奨であり、まもなく機能しなくなります）。"
 	},
 	"globalCustomInstructions": {
 		"title": "すべてのモードのカスタム指示",
 		"description": "これらの指示はすべてのモードに適用されます。モード固有の指示で強化できる基本的な動作セットを提供します。<0>詳細はこちら</0>",
-		"loadFromFile": "指示はワークスペースの<span>.roo/rules/</span>フォルダからも読み込めます（.roorules と .clinerules は非推奨であり、まもなく機能しなくなります）。"
+		"loadFromFile": "指示はワークスペースの<span>.sime/rules/</span>フォルダからも読み込めます（.roorules と .clinerules は非推奨であり、まもなく機能しなくなります）。"
 	},
 	"systemPrompt": {
 		"preview": "システムプロンプトのプレビュー",
@@ -107,7 +107,7 @@
 	},
 	"advancedSystemPrompt": {
 		"title": "詳細設定：システムプロンプトの上書き",
-		"description": "<2>⚠️ 警告：</2> この高度な機能は安全対策をバイパスします。<1>使用前にこれを読んでください！</1>ワークスペースの<span>.roo/system-prompt-{{slug}}</span>にファイルを作成することで、デフォルトのシステムプロンプトを上書きします。"
+		"description": "<2>⚠️ 警告：</2> この高度な機能は安全対策をバイパスします。<1>使用前にこれを読んでください！</1>ワークスペースの<span>.sime/system-prompt-{{slug}}</span>にファイルを作成することで、デフォルトのシステムプロンプトを上書きします。"
 	},
 	"createModeDialog": {
 		"title": "新しいモードを作成",

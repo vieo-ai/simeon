@@ -180,7 +180,7 @@ const runExercise = async ({ run, task, server }: { run: Run; task: Task; server
 
 	// Inject foot gun system prompt if present
 	if (process.env.FOOTGUN_SYSTEM_PROMPT) {
-		const rooDir = path.join(workspacePath, ".roo")
+		const rooDir = path.join(workspacePath, ".sime")
 		if (!fs.existsSync(rooDir)) {
 			fs.mkdirSync(rooDir, { recursive: true })
 		}

@@ -156,8 +156,8 @@ function formatDirectoryContent(dirPath: string, files: Array<{ filename: string
  * Load rule files from the specified directory
  */
 export async function loadRuleFiles(cwd: string): Promise<string> {
-	// Check for .roo/rules/ directory
-	const rooRulesDir = path.join(cwd, ".roo", "rules")
+	// Check for .sime/rules/ directory
+	const rooRulesDir = path.join(cwd, ".sime", "rules")
 	if (await directoryExists(rooRulesDir)) {
 		const files = await readTextFilesFromDirectory(rooRulesDir)
 		if (files.length > 0) {
@@ -192,8 +192,8 @@ export async function addCustomInstructions(
 	let usedRuleFile = ""
 
 	if (mode) {
-		// Check for .roo/rules-${mode}/ directory
-		const modeRulesDir = path.join(cwd, ".roo", `rules-${mode}`)
+		// Check for .sime/rules-${mode}/ directory
+		const modeRulesDir = path.join(cwd, ".sime", `rules-${mode}`)
 		if (await directoryExists(modeRulesDir)) {
 			const files = await readTextFilesFromDirectory(modeRulesDir)
 			if (files.length > 0) {
@@ -241,7 +241,7 @@ export async function addCustomInstructions(
 
 	// Add mode-specific rules first if they exist
 	if (modeRuleContent && modeRuleContent.trim()) {
-		if (usedRuleFile.includes(path.join(".roo", `rules-${mode}`))) {
+		if (usedRuleFile.includes(path.join(".sime", `rules-${mode}`))) {
 			rules.push(modeRuleContent.trim())
 		} else {
 			rules.push(`# Rules from ${usedRuleFile}:\n${modeRuleContent}`)
